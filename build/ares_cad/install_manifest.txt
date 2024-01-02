@@ -1,0 +1,16 @@
+/home/alex/ares_ws/install/ares_cad/lib/ares_cad/my_node
+/home/alex/ares_ws/install/ares_cad/share/ament_index/resource_index/package_run_dependencies/ares_cad
+/home/alex/ares_ws/install/ares_cad/share/ament_index/resource_index/parent_prefix_path/ares_cad
+/home/alex/ares_ws/install/ares_cad/share/ares_cad/environment/ament_prefix_path.sh
+/home/alex/ares_ws/install/ares_cad/share/ares_cad/environment/ament_prefix_path.dsv
+/home/alex/ares_ws/install/ares_cad/share/ares_cad/environment/path.sh
+/home/alex/ares_ws/install/ares_cad/share/ares_cad/environment/path.dsv
+/home/alex/ares_ws/install/ares_cad/share/ares_cad/local_setup.bash
+/home/alex/ares_ws/install/ares_cad/share/ares_cad/local_setup.sh
+/home/alex/ares_ws/install/ares_cad/share/ares_cad/local_setup.zsh
+/home/alex/ares_ws/install/ares_cad/share/ares_cad/local_setup.dsv
+/home/alex/ares_ws/install/ares_cad/share/ares_cad/package.dsv
+/home/alex/ares_ws/install/ares_cad/share/ament_index/resource_index/packages/ares_cad
+/home/alex/ares_ws/install/ares_cad/share/ares_cad/cmake/ares_cadConfig.cmake
+/home/alex/ares_ws/install/ares_cad/share/ares_cad/cmake/ares_cadConfig-version.cmake
+/home/alex/ares_ws/install/ares_cad/share/ares_cad/package.xml

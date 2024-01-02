@@ -1,0 +1,4 @@
+source;share/ares_cad/local_setup.bash
+source;share/ares_cad/local_setup.dsv
+source;share/ares_cad/local_setup.sh
+source;share/ares_cad/local_setup.zsh

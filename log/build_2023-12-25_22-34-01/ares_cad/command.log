@@ -1,0 +1,6 @@
+Invoking command in '/home/alex/ares_ws/build/ares_cad': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/alex/ares_ws/src/ares_cad -DCMAKE_INSTALL_PREFIX=/home/alex/ares_ws/install/ares_cad
+Invoked command in '/home/alex/ares_ws/build/ares_cad' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/alex/ares_ws/src/ares_cad -DCMAKE_INSTALL_PREFIX=/home/alex/ares_ws/install/ares_cad
+Invoking command in '/home/alex/ares_ws/build/ares_cad': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/alex/ares_ws/build/ares_cad -- -j6 -l6
+Invoked command in '/home/alex/ares_ws/build/ares_cad' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/alex/ares_ws/build/ares_cad -- -j6 -l6
+Invoking command in '/home/alex/ares_ws/build/ares_cad': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/alex/ares_ws/build/ares_cad
+Invoked command in '/home/alex/ares_ws/build/ares_cad' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/alex/ares_ws/build/ares_cad

@@ -1,0 +1,99 @@
+[0.000000] (-) TimerEvent: {}
+[0.000361] (ares_cad) JobQueued: {'identifier': 'ares_cad', 'dependencies': OrderedDict()}
+[0.000459] (ares_cad) JobStarted: {'identifier': 'ares_cad'}
+[0.100394] (-) TimerEvent: {}
+[0.202063] (-) TimerEvent: {}
+[0.317630] (-) TimerEvent: {}
+[0.375650] (ares_cad) JobProgress: {'identifier': 'ares_cad', 'progress': 'cmake'}
+[0.376910] (ares_cad) Command: {'cmd': ['/usr/bin/cmake', '/home/alex/ares_ws/src/ares_cad', '-DCMAKE_INSTALL_PREFIX=/home/alex/ares_ws/install/ares_cad'], 'cwd': '/home/alex/ares_ws/build/ares_cad', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'alex'), ('SSH_AGENT_PID', '1614'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/alex'), ('OLDPWD', '/home/alex/ares_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1439'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'alex'), ('JOURNAL_STREAM', '8:37212'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'alex'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu20:@/tmp/.ICE-unix/1676,unix/ubuntu20:/tmp/.ICE-unix/1676'), ('INVOCATION_ID', '700375ae694e4bde8af7485af7bb38d0'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9e8d5503_1f56_4a80_9cd0_eff0166a0e25'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1001/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.79'), ('SSH_AUTH_SOCK', '/run/user/1001/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1001/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/alex/ares_ws/build/ares_cad'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.418079] (-) TimerEvent: {}
+[0.513532] (ares_cad) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.518465] (-) TimerEvent: {}
+[0.619037] (-) TimerEvent: {}
+[0.642035] (ares_cad) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.653646] (ares_cad) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.720062] (-) TimerEvent: {}
+[0.820822] (-) TimerEvent: {}
+[0.834618] (ares_cad) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.836907] (ares_cad) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.921231] (-) TimerEvent: {}
+[1.011586] (ares_cad) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.021608] (-) TimerEvent: {}
+[1.044952] (ares_cad) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.045808] (ares_cad) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.051720] (ares_cad) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[1.121940] (-) TimerEvent: {}
+[1.216432] (ares_cad) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[1.219075] (ares_cad) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.222161] (-) TimerEvent: {}
+[1.322687] (-) TimerEvent: {}
+[1.399772] (ares_cad) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.430802] (-) TimerEvent: {}
+[1.432100] (ares_cad) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.433437] (ares_cad) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.437170] (ares_cad) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[1.500527] (ares_cad) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[1.500949] (ares_cad) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.531310] (-) TimerEvent: {}
+[1.632244] (-) TimerEvent: {}
+[1.733004] (-) TimerEvent: {}
+[1.833799] (-) TimerEvent: {}
+[1.934417] (-) TimerEvent: {}
+[2.017994] (ares_cad) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[2.035077] (-) TimerEvent: {}
+[2.136053] (-) TimerEvent: {}
+[2.199631] (ares_cad) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.201737] (ares_cad) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.202303] (ares_cad) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/alex/ares_ws/src/ares_cad/include>\n'}
+[2.202500] (ares_cad) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.204443] (ares_cad) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[2.204866] (ares_cad) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[2.206110] (ares_cad) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.208631] (ares_cad) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.209208] (ares_cad) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.209882] (ares_cad) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.213985] (ares_cad) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.221461] (ares_cad) StdoutLine: {'line': b'-- Generating done\n'}
+[2.225083] (ares_cad) StdoutLine: {'line': b'-- Build files have been written to: /home/alex/ares_ws/build/ares_cad\n'}
+[2.232325] (ares_cad) CommandEnded: {'returncode': 0}
+[2.233954] (ares_cad) JobProgress: {'identifier': 'ares_cad', 'progress': 'build'}
+[2.238876] (-) TimerEvent: {}
+[2.239625] (ares_cad) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/alex/ares_ws/build/ares_cad', '--', '-j6', '-l6'], 'cwd': '/home/alex/ares_ws/build/ares_cad', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'alex'), ('SSH_AGENT_PID', '1614'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/alex'), ('OLDPWD', '/home/alex/ares_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1439'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'alex'), ('JOURNAL_STREAM', '8:37212'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'alex'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu20:@/tmp/.ICE-unix/1676,unix/ubuntu20:/tmp/.ICE-unix/1676'), ('INVOCATION_ID', '700375ae694e4bde8af7485af7bb38d0'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9e8d5503_1f56_4a80_9cd0_eff0166a0e25'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1001/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.79'), ('SSH_AUTH_SOCK', '/run/user/1001/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1001/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/alex/ares_ws/build/ares_cad'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[2.320365] (ares_cad) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_node\x1b[0m\n'}
+[2.338884] (-) TimerEvent: {}
+[2.341548] (ares_cad) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/my_node.dir/src/my_node.cpp.o\x1b[0m\n'}
+[2.405652] (ares_cad) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable my_node\x1b[0m\n'}
+[2.439168] (-) TimerEvent: {}
+[2.502170] (ares_cad) StdoutLine: {'line': b'[100%] Built target my_node\n'}
+[2.523276] (ares_cad) CommandEnded: {'returncode': 0}
+[2.539389] (-) TimerEvent: {}
+[2.574971] (ares_cad) JobProgress: {'identifier': 'ares_cad', 'progress': 'install'}
+[2.599802] (ares_cad) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/alex/ares_ws/build/ares_cad'], 'cwd': '/home/alex/ares_ws/build/ares_cad', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'alex'), ('SSH_AGENT_PID', '1614'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/alex'), ('OLDPWD', '/home/alex/ares_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1439'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'alex'), ('JOURNAL_STREAM', '8:37212'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'alex'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu20:@/tmp/.ICE-unix/1676,unix/ubuntu20:/tmp/.ICE-unix/1676'), ('INVOCATION_ID', '700375ae694e4bde8af7485af7bb38d0'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9e8d5503_1f56_4a80_9cd0_eff0166a0e25'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1001/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.79'), ('SSH_AUTH_SOCK', '/run/user/1001/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1001/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/alex/ares_ws/build/ares_cad'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[2.618040] (ares_cad) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.618493] (ares_cad) StdoutLine: {'line': b'-- Installing: /home/alex/ares_ws/install/ares_cad/lib/ares_cad/my_node\n'}
+[2.619021] (ares_cad) StdoutLine: {'line': b'-- Installing: /home/alex/ares_ws/install/ares_cad/share/ament_index/resource_index/package_run_dependencies/ares_cad\n'}
+[2.619234] (ares_cad) StdoutLine: {'line': b'-- Installing: /home/alex/ares_ws/install/ares_cad/share/ament_index/resource_index/parent_prefix_path/ares_cad\n'}
+[2.619710] (ares_cad) StdoutLine: {'line': b'-- Installing: /home/alex/ares_ws/install/ares_cad/share/ares_cad/environment/ament_prefix_path.sh\n'}
+[2.619979] (ares_cad) StdoutLine: {'line': b'-- Installing: /home/alex/ares_ws/install/ares_cad/share/ares_cad/environment/ament_prefix_path.dsv\n'}
+[2.620100] (ares_cad) StdoutLine: {'line': b'-- Installing: /home/alex/ares_ws/install/ares_cad/share/ares_cad/environment/path.sh\n'}
+[2.620232] (ares_cad) StdoutLine: {'line': b'-- Installing: /home/alex/ares_ws/install/ares_cad/share/ares_cad/environment/path.dsv\n'}
+[2.620619] (ares_cad) StdoutLine: {'line': b'-- Installing: /home/alex/ares_ws/install/ares_cad/share/ares_cad/local_setup.bash\n'}
+[2.620890] (ares_cad) StdoutLine: {'line': b'-- Installing: /home/alex/ares_ws/install/ares_cad/share/ares_cad/local_setup.sh\n'}
+[2.621117] (ares_cad) StdoutLine: {'line': b'-- Installing: /home/alex/ares_ws/install/ares_cad/share/ares_cad/local_setup.zsh\n'}
+[2.621428] (ares_cad) StdoutLine: {'line': b'-- Installing: /home/alex/ares_ws/install/ares_cad/share/ares_cad/local_setup.dsv\n'}
+[2.621608] (ares_cad) StdoutLine: {'line': b'-- Installing: /home/alex/ares_ws/install/ares_cad/share/ares_cad/package.dsv\n'}
+[2.622137] (ares_cad) StdoutLine: {'line': b'-- Installing: /home/alex/ares_ws/install/ares_cad/share/ament_index/resource_index/packages/ares_cad\n'}
+[2.622552] (ares_cad) StdoutLine: {'line': b'-- Installing: /home/alex/ares_ws/install/ares_cad/share/ares_cad/cmake/ares_cadConfig.cmake\n'}
+[2.622711] (ares_cad) StdoutLine: {'line': b'-- Installing: /home/alex/ares_ws/install/ares_cad/share/ares_cad/cmake/ares_cadConfig-version.cmake\n'}
+[2.623218] (ares_cad) StdoutLine: {'line': b'-- Installing: /home/alex/ares_ws/install/ares_cad/share/ares_cad/package.xml\n'}
+[2.627052] (ares_cad) CommandEnded: {'returncode': 0}
+[2.639716] (-) TimerEvent: {}
+[2.740610] (-) TimerEvent: {}
+[2.841971] (-) TimerEvent: {}
+[2.952878] (-) TimerEvent: {}
+[3.065194] (-) TimerEvent: {}
+[3.167755] (-) TimerEvent: {}
+[3.307408] (-) TimerEvent: {}
+[3.430789] (ares_cad) JobEnded: {'identifier': 'ares_cad', 'rc': 0}
+[3.432622] (-) TimerEvent: {}
+[3.432845] (-) EventReactorShutdown: {}

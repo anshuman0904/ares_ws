@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<robot name="materials">
+
+  <material name="red">
+    <color rgba="1 0 0 1"/>
+  </material>
+
+  <material name="foo">
+    <color rgba="0.9 0.52 0.13 0.8"/>
+  </material>
+
+  <link name="base_link">
+    <visual>
+      <geometry>
+        <box size="0.7 0.5 0.3"/>
+      </geometry>
+      <material name="red"/>
+    </visual>
+  </link>
+
+  <link name="frontRightWheel">
+    <visual>
+      <geometry>
+        <cylinder length="0.05" radius="0.15"/>
+      </geometry>
+      <material name="foo"/>
+    </visual>
+  </link>
+
+  <joint name="base_to_Fright_leg" type="continuous">
+    <parent link="base_link"/>
+    <child link="frontRightWheel"/>
+    <origin xyz="0.2 -0.275 -0.15" rpy="1.5708 0 0"/>
+    <axis xyz="0 0 1"/>
+  </joint>
+
+  <link name="backRightWheel">
+    <visual>
+      <geometry>
+        <cylinder length="0.05" radius="0.15"/>
+      </geometry>
+      <material name="foo"/>
+    </visual>
+  </link>
+
+  <joint name="base_to_Bright_leg" type="continuous">
+    <parent link="base_link"/>
+    <child link="backRightWheel"/>
+    <origin xyz="-0.2 -0.275 -0.15" rpy="1.5708 0 0"/>
+    <axis xyz="0 0 1"/>
+  </joint>
+
+  <link name="frontLeftWheel">
+    <visual>
+      <geometry>
+        <cylinder length="0.05" radius="0.15"/>
+      </geometry>
+      <material name="foo"/>
+    </visual>
+  </link>
+
+  <joint name="base_to_Fleft_leg" type="continuous">
+    <parent link="base_link"/>
+    <child link="frontLeftWheel"/>
+    <origin xyz="0.2 0.275 -0.15" rpy="1.5708 0 0"/>
+    <axis xyz="0 0 1"/>
+  </joint>
+
+  <link name="backLeftWheel">
+    <visual>
+      <geometry>
+        <cylinder length="0.05" radius="0.15"/>
+      </geometry>
+      <material name="foo"/>
+    </visual>
+  </link>
+
+  <joint name="base_to_Bleft_leg" type="continuous">
+    <parent link="base_link"/>
+    <child link="backLeftWheel"/>
+    <origin xyz="-0.2 0.275 -0.15" rpy="1.5708 0 0"/>
+    <axis xyz="0 0 1"/>
+  </joint>
+
+</robot>

@@ -1,0 +1,8 @@
+source;share/ares_cad/hook/cmake_prefix_path.ps1
+source;share/ares_cad/hook/cmake_prefix_path.dsv
+source;share/ares_cad/hook/cmake_prefix_path.sh
+source;share/ares_cad/local_setup.bash
+source;share/ares_cad/local_setup.dsv
+source;share/ares_cad/local_setup.ps1
+source;share/ares_cad/local_setup.sh
+source;share/ares_cad/local_setup.zsh
